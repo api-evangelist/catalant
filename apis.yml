@@ -1,7 +1,28 @@
 aid: catalant
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/catalant.png
 name: Catalant
-description: Catalant is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Catalant is a consulting platform that connects organizations with a global marketplace
+  of experienced independent consultants and boutique firms, positioning itself as "Consulting
+  2.0" fit-to-purpose consulting that is faster, more flexible, and more cost efficient than
+  traditional large consulting firms. Its network spans 10,000+ vetted consultants (many from
+  Fortune 500 companies and top-tier consulting firms, averaging 19+ years of experience) and
+  serves 700+ businesses across 20+ countries. Catalant covers engagement areas including
+  Digital & AI, Transformation & Value Creation, Operations, Sales & Marketing, M&A / Integration
+  & Separation, Strategy & Finance, and Organization & People. Catalant is a General Catalyst
+  portfolio company. No public developer API or documentation surface was found during enrichment;
+  this profile captures the company's public web, legal, and support properties.
 url: https://raw.githubusercontent.com/api-evangelist/catalant/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Consulting
+- Talent Marketplace
+- Professional Services
+- Independent Consultants
+- Strategy
+- Digital and AI
+- Expert Network
 apis: []
+common:
+- type: DomainSecurity
+  url: security/catalant-domain-security.yml
+- type: Website
+  url: https://catalant.com/
+- type: Blog
+  url: https://catalant.com/blog/
+- type: Support
+  url: https://gocatalant.my.site.com/clientsupport/s/
+- type: HelpCenter
+  url: https://gocatalant.my.site.com/consultantsupport/s/
+- type: TermsOfService
+  url: https://catalant.com/legal/terms-of-use/
+- type: PrivacyPolicy
+  url: https://catalant.com/legal/website-privacy-notice/
+- type: Login
+  url: https://app.gocatalant.com/c/_/auth/login/
+- type: SignUp
+  url: https://app.gocatalant.com/c/_/auth/signup/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
